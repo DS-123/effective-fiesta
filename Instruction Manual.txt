@@ -1,0 +1,28 @@
+1. Clone this repository to your system.
+2. Open this repository with yout Jupyter Notebook.
+3. Now generate the bokeh plot for NSE stock data for year 2015-16.
+4. Once the repository opens in Jupyter Notebook, run anaconda prompt and run following commands on terminal: 
+
+>>pip install pandas
+>>pip install numpy
+>>pip install datetime
+>>pip install bokeh
+>>pip install nsepy
+>>pip install matplotlib
+>>pip install seaborn
+>>pip install sklearn
+>>pip install scipy
+
+5. Now to Plot the graphs run follow commands:
+
+5.1.To Plot TCS Graph - https://prnt.sc/mfjuc2
+
+>>bokeh_plot(tcsdf)
+
+5.2. To Plot Infosys Graph - https://prnt.sc/mfju2c
+
+>>bokeh_plot(infydf) 
+
+5.3. To Plot Nifty IT Graph
+
+>>bokeh_plot(niftydf) 
